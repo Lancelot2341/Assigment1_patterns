@@ -1,16 +1,16 @@
 public class Main {
     public static void main(String[] args) {
         // Создаём пользователя через Builder
-        User user = new User.Builder("John", "Doe")
+        User user = new User.Builder("Abylai", "Urgen")
                 .age(25)
-                .email("john.doe@example.com")
-                .phone("+123456789")
+                .email("abylaiurgen@gmail.com")
+                .phone("+77052916016")
                 .build();
 
         System.out.println(user);
 
         // Можно создать и с минимальными данными
-        User simpleUser = new User.Builder("Alice", "Smith").build();
+        User simpleUser = new User.Builder("Abylai", "Urgen").build();
         System.out.println(simpleUser);
     }
 }
